@@ -1,0 +1,181 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+nav a:hover {
+    background-color: #ffb74d;
+    color: #212529;
+}
+
+.carrito-icon {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: 1px solid #ffffff;
+}
+
+.carrito-icon:hover {
+    background-color: #ffb74d;
+    color: #212529;
+}
+
+main {
+    padding: 40px;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 12px;
+}
+
+table th {
+    background-color: #212529;
+    color: #ffffff;
+    width: 20%; /* Ajusta el ancho de las celdas de encabezado */
+}
+
+table th:first-child {
+    width: 10%; /* Ajusta el ancho de la celda de la imagen */
+}
+
+.producto img {
+    width: 60px; /* Ajusta el ancho de la imagen */
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.eliminar-btn {
+    background-color: #dc3545;
+    color: #ffffff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.eliminar-btn:hover {
+    background-color: #c82333;
+}
+
+.subtotal {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+    width: 100%;
+    margin-top: 20px;
+    text-align: right;
+}
+
+.subtotal p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.pagar-btn {
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.pagar-btn:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-info .info-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.contact-info .info-item i {
+    margin-right: 10px;
+}
+.vehiculo {
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    padding: 30px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+.vehiculo img {
+    width: 100%;
+    height: auto;
+}

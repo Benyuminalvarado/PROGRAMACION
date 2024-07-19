@@ -1,0 +1,73 @@
+
+{%load static%}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soporte Técnico de Vehículos</title>
+    <link rel="stylesheet" href="{% static 'estilo_personal.css' %}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+<body>
+    <header>
+        <div id="cosasArriba">
+            <h1>Melipilla Automotriz</h1>
+            <nav>
+                <a href="{% url 'home' %}">Principal</a>
+                <a href="{% url 'vehiculo' %}">Modelos</a>
+                <a href="{% url 'cotizaciones' %}">Cotizaciones</a>
+                <a href="{% url 'personal' %}">Personal</a>
+                <a href="{% url 'servicio' %}">Servicios</a>
+                
+            </nav>
+        </div>
+    </header>
+
+    <main id="contenedor-principal">
+        <section id="informacion">
+            <div class="informacion-contenido">
+                <h2>Información</h2>
+                <p>En nuestra empresa, consideramos que nuestra nueva forma de cuidar los autos es más que innovadora; ¡es como tener otro hijo en la familia! Nos apasiona brindar un servicio que va más allá de lo convencional. Cada vehículo que llega a nuestras manos es tratado con el cariño y la atención que merece, como si formara parte de nuestra propia familia. ¡Déjanos consentir a tu auto como nunca antes lo has visto!</p>
+            </div>
+        </section>
+
+        <section id="personal">
+            <h2>Personal de la Empresa</h2>
+            <p>Aquí puedes encontrar información sobre nuestro equipo técnico y de soporte.</p>
+            <ul>
+                <li>Nicolas Silva - Gerente</li>
+                <li>Benjamin Alvarado - Supervisor</li>
+                <li>Leinab Muga - Gerenta</li>
+            </ul>
+        </section>
+
+        <section id="banner">
+            <h2>Servicios de Soporte Técnico</h2>
+            <p>Descripción de los servicios de soporte técnico ofrecidos para vehículos.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Dirección: Las merceditas, Melipilla, Chile</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>Email: info@Automotrizmel.com</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>Teléfono: +1234567890</p>
+                </div>
+            </div>
+            <p>&copy; 2024 melipilla motor. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>

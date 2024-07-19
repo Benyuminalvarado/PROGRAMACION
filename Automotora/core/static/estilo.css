@@ -1,0 +1,96 @@
+/* Estilos generales */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #212529;
+}
+
+/* Estilos del encabezado */
+header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav a { 
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+/* Estilos del banner */
+#banner {
+    margin-top: 20px;
+}
+
+.carousel-item img {
+    height: 400px; /* Ajustar según necesidad */
+    object-fit: cover;
+}
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.carousel-caption h5,
+.carousel-caption p {
+    color: #ffffff;
+}
+
+/* Estilos de la sección "Sobre Nosotros" */
+#sobre {
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+#sobre h2 {
+    color: #212529;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+footer ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .fab {
+    margin-right: 5px;
+}

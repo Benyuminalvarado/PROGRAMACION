@@ -1,0 +1,74 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(135deg, #f8f8f8 40%, #e8e8e8 100%);
+}
+
+#cosasArriba {
+    background: linear-gradient(180deg, #212529 0%, #32383e 100%);
+    color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #ffb74d;
+    color: #212529;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+}
+
+form label {
+    font-weight: bold; /* Hacer que las etiquetas de formulario sean más prominentes */
+    display: block;
+    margin-bottom: 10px;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px; /* Aumentar el padding para mejor legibilidad */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px; /* Ajustar el tamaño de fuente para consistencia */
+}
+
+form button {
+    background-color: #212529;
+    color: #ffffff;
+    padding: 12px 24px; /* Ajustar el padding del botón para mejor apariencia */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #ffffff;
+    color: #212529;
+}
